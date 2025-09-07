@@ -1,0 +1,20 @@
+[
+    {
+        "label": "HelloWorld",
+        "kind": 6,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "class HelloWorld:\n    def __init__(self):\n        pass\n    def hello(self):\n        print(\"Hello world! This is my firts Python Project!\")\ndef main():\n    print(\"Script Started\")\n    my_object=HelloWorld()\n    my_object.hello()\n    print(\"Script Finished\")",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "def main():\n    print(\"Script Started\")\n    my_object=HelloWorld()\n    my_object.hello()\n    print(\"Script Finished\")\nif __name__ == \"__main__\":\n    main()",
+        "detail": "app.main",
+        "documentation": {}
+    }
+]
